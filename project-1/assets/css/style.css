@@ -108,7 +108,7 @@ a {
     font-size: 1.8rem;
     line-height: 27px;
     letter-spacing: 0.01em;
-    color: #687691;
+    color: #687690;
 }
 
 .hero .title {
@@ -139,7 +139,7 @@ a {
 
 .clients {
     margin-top: 79px;
-    padding: 43px 0 64px;
+    padding: 43px 0 41px;
 }
 
 .clients .row {
@@ -164,7 +164,19 @@ a {
 }
 
 .clients .images {
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.clients .images a{
+    height: 90px;
+    padding: 0 42px;
+    display: flex;
+    align-items: center;
+}
+
+.clients .images a:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
 
 .guides {
