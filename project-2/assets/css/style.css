@@ -511,6 +511,9 @@ a {
 
 .feature .content {
     margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .feature .desc {
@@ -529,7 +532,6 @@ a {
 
 .feature-2 .content {
     margin-left: 0;
-    padding-top: 71px;
 }
 
 .feature-2 .images {
@@ -628,6 +630,7 @@ a {
     background-color: #e2dfda;
     width: 160px;
     height: 1px;
+    border-radius: 999px;
 }
 
 .blog .heading {
